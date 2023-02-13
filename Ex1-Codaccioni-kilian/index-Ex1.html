@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Liens unique pour les icones -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5fa3ee9737.css" crossorigin="anonymous">
+    <!-- Liens vers le fichier css custom -->
+    <link rel="stylesheet" type="text/css" title="design" href="style-Ex1.css"/>
+    <link rel="icon" type="assets/png" href="assets/icon_new.svg" />
+    <title>Web design - Ex 1</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="container-fluid flex-wrap justify-content-center">
+      <header class="d-flex justify-content-between flex-wrap justify-content-center d-flex align-items-center py-3 mb-4 border-bottom navbar-dark">
+        <!-- Logo -->
+        <a href="#" class="d-flex justify-content-center mb-3 mb-md-0 me-md-auto mx-auto">
+          <img class="img-fluid" src="assets/epf_logo_new.svg" width="200"></img>
+          <span class="fs-4"></span>
+        </a>
+
+        <!-- Menu -->
+        <ul class="nav nav-pills mx-auto">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Integration Html</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">CSS</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">JavaScript</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PHP</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Autre...</a></li>
+        </ul>
+      </header>
+
+      <!-- Image card -->
+      <div class="container py-2 flex-wrap justify-content-center">
+        <img class="img-fluid" src="assets/01.png" style="width: 100%"></img>
+      </div>
+
+      <!-- Presentation card -->
+      <div class="container py-2">
+        <div class="row">
+          <!-- Section html -->
+          <div class="col-md-4 pb-2 mb-3">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <div class="row d-flex justify-content-start">
+                <!-- Icone -->
+                <div class="col-auto mr-auto">
+                  <h2><i class="fa-brands fa-html5"></i></h2>
+                </div>
+                <!-- Titre -->
+                <div class="col-auto mr-auto">
+                  <h4>Html</h4>
+                </div>
+              </div>
+              <!-- Description -->
+              <p>
+                L'intégration HTML est la procédure par laquelle on part d'un fichier graphique pour arriver à un contenu HTML de type page web ou email HTML.
+              </p>
+              <!-- Bouton -->
+              <button class="btn btn-outline-secondary" type="button" onclick="window.location.href='assets/TP1_HTML&CSS_Exercice1.pdf';" >Voir le TP</button>
+            </div>
+          </div>
+          <!-- Section JavaScript -->
+          <div class="col-md-4 pb-2 mb-3">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <div class="row d-flex justify-content-start">
+                <!-- Icone -->
+                <div class="col-auto mr-auto">
+                  <h2><i class="fa-brands fa-js"></i></h2>
+                </div>
+                <!-- Titre -->
+                <div class="col-auto mr-auto">
+                  <h4>JavaScript</h4>
+                </div>
+              </div>
+              <!-- Description -->
+              <p>
+                JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.
+              </p>
+              <!-- Bouton -->
+              <button class="btn btn-outline-secondary" type="button" onclick="window.location.href='assets/TP1_HTML&CSS_Exercice1.pdf';" >Voir le TP</button>
+            </div>
+          </div>
+          <!-- Section JQuery & Ajax -->
+          <div class="col-md-4 pb-2 mb-3">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <div class="row d-flex justify-content-start">
+                <!-- Icone -->
+                <div class="col-auto mr-auto">
+                  <h2><i class="fa-solid fa-computer"></i></h2>
+                </div>
+                <!-- Titre -->
+                <div class="col-auto mr-auto">
+                  <h4>JQuery & Ajax</h4>
+                </div>
+              </div>
+              <!-- Description -->
+              <p>
+                Ajax est une méthode utilisant différentes technologies ajoutées aux navigateurs web entre 1995 et 2005, et dont la particularité est de permettre d'effectuer des requêtes au serveur web.
+              </p>
+              <!-- Bouton -->
+              <button class="btn btn-outline-secondary" type="button" onclick="window.location.href='assets/TP1_HTML&CSS_Exercice1.pdf';" >Voir le TP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TDs & about card -->
+      <div class="container py-2">
+        <div class="row">
+          <!-- Section TDs -->
+          <div class="col-md-9 pb-2 mb-3">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <h4>
+                Dernier TDs
+              </h4>
+              <hr>
+              <p>
+                <a href="#">TD1 - Integration Html</a>
+              </p>
+              <p class="text-muted">Date : 2021-09-20</p>
+              <hr>
+
+              <p>
+                <a href="#">TD2 - Mise en forme CSS</a>
+              </p>
+              <p class="text-muted">Date : 2021-09-27</p>
+              <hr>
+
+              <p>
+                <a href="#">TD3 - JavaScript</a>
+              </p>
+              <p class="text-muted">Date : 2021-10-04</p>
+              
+            </div>
+          </div>
+
+          <!-- Section about -->
+          <div class="col-md-3 pb-2 mb-3">
+            <div class="h-100 p-4 bg-light border rounded-3">
+              <h4>
+                À propos
+              </h4>
+              <hr>
+              <p>
+                Ce site a été réalisé par <a href="https://www.linkedin.com/in/codaccioni-kilian/">CODACCIONI Kilian</a> dans le cadre du cours de Web Design de l'EPF.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- Footer -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <img class="img-fluid" src="assets/epf_logo_new.svg" width="200"></img>
+        </ul>
+        <p class="text-center text-muted">© 2023 CODACCIONI Kilian - EPF - Web Design</p>
+      </footer>
+    </div>
+
+    <!-- CDN js Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- CDN js Fontawesome -->
+    <script src="https://kit.fontawesome.com/5fa3ee9737.js" crossorigin="anonymous"></script>
+  </body>
+</html>

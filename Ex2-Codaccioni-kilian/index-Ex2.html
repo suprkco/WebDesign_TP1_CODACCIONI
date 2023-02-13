@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Liens unique pour les icones -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5fa3ee9737.css" crossorigin="anonymous">
+    <!-- Liens vers le fichier css custom -->
+    <link rel="stylesheet" type="text/css" title="design" href="style-Ex2.css"/>
+    <link rel="icon" type="assets/png" href="assets/icon_new.svg" />
+    <title>Web design - Ex 2</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- Header -->
+      <div class="d-flex justify-content-between flex-wrap justify-content-center d-flex align-items-center py-3 mt-3 mb-4 border-bottom gradient border-dark-subtle rounded">
+        <div class="col-9 mx-auto p-3">
+          <p class="main-title text-center text-white">CRYPTOGRAPHIE</p>
+        </div>
+        <div class="col-3 mx-auto p-3">
+          <!-- "Master M2I OUJDA 2011-2012" en transparent sur le fond gradient -->
+          <h3 class="text-center text-white second-title">Master M2I OUJDA 2011-2012</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Menu de navigation -->
+        <div class="col flex-shrink-0 p-3 gradient border-dark-subtle rounded col-auto" >
+          <a href="#" class="d-flex align-items-center pb-3 mb-3 link-light text-decoration-none border-bottom">
+            <img class="img-fluid" width="40" height="40" src="assets/icon_new.svg"></img>
+            <span class="fs-5 ps-2 fw-semibold">Menu déroulant</span>
+          </a>
+          <ul class="list-unstyled ps-0">
+            <!-- Section accueil -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Accueil-collapse" aria-expanded="false">
+                Accueil
+              </button>
+              <div class="collapse" id="Accueil-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Introduction</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section methode affine -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Methode-affine-collapse" aria-expanded="false">
+                Méthode affine
+              </button>
+              <div class="collapse" id="Methode-affine-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section methode de Hill -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Methode-de-HILL-collapse" aria-expanded="false">
+                Méthode de HILL
+              </button>
+              <div class="collapse" id="Methode-de-HILL-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section methode de Vigenere -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Methode-de-Vigenere-collapse" aria-expanded="false">
+                Méthode de Vigenère
+              </button>
+              <div class="collapse" id="Methode-de-Vigenere-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section RSA -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#RSA-collapse" aria-expanded="false">
+                R.S.A
+              </button>
+              <div class="collapse" id="RSA-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section cryptanalyse affine -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Cryptanalyse-affine-collapse" aria-expanded="false">
+                Cryptanalyse affine
+              </button>
+              <div class="collapse" id="Cryptanalyse-affine-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Section cryptanalyse de Vigenere -->
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed link-light" data-bs-toggle="collapse" data-bs-target="#Cryptanalyse-de-HILL-collapse" aria-expanded="false">
+                Cryptanalyse de HILL
+              </button>
+              <div class="collapse" id="Cryptanalyse-de-HILL-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">En apprendre d'avantage</a></li>
+                  <li><a href="#" class="link-light d-inline-flex text-decoration-none rounded">Bibliographie</a></li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Contenu -->
+        <div class="col">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <p class="text-muted">Accueil</p>
+            <h1>Introduction</h1>
+            <h3>La Cryptographie</h3>
+            <p class="info">
+              La <b>Cryptographie</b> est la science de l'étude des algorithmes mathématiques qui permettent de transformer un texte écrit, dit texte clair, en un autre texte incompréhensible n'ayant aucun sens, dit texte chiffré. Seul le détenteur d'une information spécifique peut reconstituer le texte d'origine. La cryptographie permet donc de protéger les informations sensibles de telle sorte qu'elles ne peuvent pas être lues par personne à l'exception du destinataire convenu.
+            </p>
+            <h3>La Cryptanalyse</h3>
+            <p class="info">
+              La <b>Cryptanalyse</b> est une science qui a pour but d'étudier et de tester la sécurité des algorithmes utilisés en cryptographie. Ainsi le cryptanalyste essaye de trouver le texte clair bien qu'il ne soit pas le destinataire convenu. La cryptanalyse mêle à la fois: raisonnement analytique, application des outils mathématiques, découverte de redondances et de la chance par fois.
+            </p>
+            <button class="btn btn-outline-secondary gradient" type="button" onclick="window.location.href='assets/TP1_HTML&CSS-Exercice2.pdf';">Voir le TP</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <p class="text-center text-muted">© 2023 CODACCIONI Kilian - EPF - Web Design</p>
+        </footer>
+      </div>
+
+    </div>
+
+    <!-- CDN js Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- CDN js Fontawesome -->
+    <script src="https://kit.fontawesome.com/5fa3ee9737.js" crossorigin="anonymous"></script>
+  </body>
+</html>
